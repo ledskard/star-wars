@@ -21,7 +21,7 @@ public class PlanetService {
     public Planet create(Planet planet){
         SwapiDTO swapiDTO = swapiService.getApparitionQuantity(planet.getName());
         if(swapiDTO.getResults().toArray().length > 0){
-            List<String> filmsApparition = swapiDTO.resultDTO.get(0).getFilms();
+            List<String> filmsApparition = swapiDTO.results.get(0).getFilms();
             planet.setApparitionQuantity(filmsApparition.size());
         } else {
             planet.setApparitionQuantity(0);

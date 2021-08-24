@@ -3,7 +3,9 @@ package com.starwars.api.service;
 
 import com.starwars.api.dto.PlanetDTO;
 import com.starwars.api.dto.SwapiDTO;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

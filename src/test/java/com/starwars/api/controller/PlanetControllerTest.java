@@ -77,7 +77,6 @@ public class PlanetControllerTest {
 
     @Test
     public void delete() throws Exception {
-        Planet planetDataMock = new Planet( 1L,"Hoth", "frozen", "tundra, ice caves, mountain ranges", 1);
 
         doNothing().when(planetService).delete(1L);
         mockMvc.perform(MockMvcRequestBuilders.delete("/planets/1")).andExpect(MockMvcResultMatchers.status().isNoContent());
