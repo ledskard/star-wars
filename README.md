@@ -3,7 +3,7 @@
 
 ## Requisitos:
 
-É necessário ter o JAVA11 instalado, você pode baixá-lo aqui [JAVA](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html).
+É necessário ter o JAVA instalado, você pode baixá-lo aqui [JAVA](https://www.oracle.com/br/java/technologies/javase-downloads.html).
 
 É necessário ter o Docker instalado, você pode baixá-lo aqui [Docker](https://hub.docker.com/).
 
